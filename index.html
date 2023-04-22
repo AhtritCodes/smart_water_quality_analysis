@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Water Quality Monitoring</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<h2>Smart Solar Powered Water Quality Monitoring!!</h2>
+
+	<form id="sendForm" class="input">
+		<label>Sample Name</label>
+		<input type="text" id="soln-name" class="input-tag">
+		
+		<br>
+		<br>
+
+		<label>pH Value</label>
+		<input type="text" id="pH-value" class="input-tag">
+
+		<br>
+		<br>
+
+		<button id="send-data">SEND</button>
+	</form>
+
+	<br>
+	<br>
+
+	<div id="post-response">
+		
+	</div>
+
+	<button id="receive-data">REFRESH</button>
+
+	<h2>Received Data</h2>
+
+	<table class="show-data">
+		<thead>
+			<tr>
+				<th rowspan="2">Id</th>
+				<th rowspan="2">Sample Name</th>
+				<th rowspan="2">Temperature</th>
+				<th rowspan="2">TDS</th>
+				<th rowspan="2">pH</th>
+				<th colspan="2">Bacterial Growth</th>
+			</tr>
+			<tr>
+				<th>Temp</th>
+				<th>pH</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="7">No data</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.16);
+}
+
+.input-tag {
+	width: 40%;
+	font-size: 20px;
+	font-family: segeo-ui!important;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 30px;
+	border-radius: 10px;
+}
+
+
+table {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border: 2px solid red;
+	padding: 10px;
+}	
+
+#send-data {
+	border: none;
+	font-size: 20px;
+	font-family: Arial;
+	width: 100px;
+	height: 60px;
+	background-color: #868686cf;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#send-data:hover {
+	background-color: lightseagreen;
+	color: #000;
+}
+
+#receive-data {
+	border: none;
+	font-size: 20px;
+	font-family: Arial;
+	width: 120px;
+	height: 120px;
+	background-color: #868686cf;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 50%;
+	font-weight: bold;
+}
+
+#receive-data:hover {
+	background-color: lightcoral;
+	color: #000;
+}
+
+.input {
+	width: 100%;
+	margin: 30px auto;
+}
+
+.example-div {
+	width: 50%;
+	margin: 30px auto;
+	font-size: 15px;
+}
