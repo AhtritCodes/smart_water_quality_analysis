@@ -73,3 +73,13 @@ table, th, td {
 	margin: 30px auto;
 	font-size: 15px;
 }
+
+#links {
+	width: 80%;
+	height: 100px;
+	margin: 30px auto;
+}
+
+#links a {
+	text-decoration: none;
+}

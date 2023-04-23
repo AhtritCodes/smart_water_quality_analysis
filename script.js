@@ -97,6 +97,7 @@ const showTableHtml = (data) => {
 	pHVal = data.pH;
 
 	if (data.data == 'not found') {
+		// document.querySelector('#post-response').innerHTML = `Response: <br><br> ${data} <br><br>`;
 		table.innerHTML = `<tr><td class='no-data' colspan='3'>No Data</td></tr>`;
 
 		count = 1;
